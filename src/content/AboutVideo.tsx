@@ -32,14 +32,14 @@ const AboutVideo: React.FC = () => {
     }, []);
 
     return (
-        <div className="bg-white p-2 md:p-[260px] text-black w-screen md:w-full">
+        <div className="bg-white p-2 md:p-[260px] md:pt-0 text-black w-screen md:w-full">
             <div className="flex flex-col items-center gap-4">
                 <div className="flex flex-col text-start w-full max-w-[1024px]">
-                    <h2 className="text-2xl font-normal leading-10 font-sans tracking-tighter ">
+                    {/* <h2 className="text-2xl font-normal leading-10 font-sans tracking-tighter ">
                         Our Mission
-                    </h2>
+                    </h2> */}
                     <h3 className="text-4xl font-normal leading-11 font-sans tracking-tighter mb-10 text-start">
-                        Create a generalized brain interface to restore autonomy to those with unmet medical needs today and unlock human potential tomorrow.
+                        We use artificial intelligence and the latest advancements in genetic reprogramming to build a better future.
                     </h3>
                 </div>
                 <div className="max-w-[1024px] max-h-[640px]  rounded-lg">

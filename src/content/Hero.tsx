@@ -84,6 +84,7 @@ const Hero: React.FC = () => {
                 className={`absolute top-0 left-0 w-full h-full ${isMd ? 'object-contain' : 'object-cover'}`}
                 autoPlay
                 muted
+                playsInline
                 src={isMd ? '/MV.mp4' : '/v1.mp4'}
                 onEnded={handleVideoEnd}
             />

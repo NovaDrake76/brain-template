@@ -9,9 +9,9 @@ const images = [
         caption: 'Founded in Summer 2023, Neurastem funds research at the cutting edge of neuroscience. We help develop therapeutic and diagnostic tools for various brain disorders. ',
     },
     {
-        src: 'brain1.png',
+        src: 'brain4.webp',
         alt: 'What we do',
-        caption: 'We are using reprogramming factors to gain precise structural control of the brain, leading to treatment options for neurodegenerative diseases and other structural deficiencies',
+        caption: 'We are using reprogramming factors to gain precise structural control of the brain, leading to treatment options for neurodegenerative diseases and other structural deficiencies.',
     },
     {
         src: 'brain2.png',
