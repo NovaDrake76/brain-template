@@ -5,11 +5,13 @@ import Images1 from './content/Images1'
 import AboutVideo from './content/AboutVideo'
 import HorizontalContent from './content/HorizontalContent'
 import BottomContent from './content/BottomContent'
+import Navbar from './components/Navbar'
 
 function App() {
 
   return (
     <div className="flex flex-col w-full">
+      <Navbar />
       <Hero />
       <About />
       <Images1 />

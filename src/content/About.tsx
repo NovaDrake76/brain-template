@@ -31,7 +31,7 @@ const About: React.FC = () => {
         <div className="bg-white p-4 md:p-[260px] text-black w-screen md:w-full flex flex-col items-center">
             <div className="flex flex-col items-center gap-4">
                 <div className="flex flex-col text-start w-full max-w-[1024px]">
-                    <h2 className="text-2xl font-normal leading-10 font-sans tracking-tighter">
+                    <h2 className="text-2xl font-normal leading-10 font-sans tracking-tighter" id="about">
                         Our Mission
                     </h2>
                     <h3 className=" text-2xl lg:text-4xl font-normal leading-11 font-sans tracking-tighter mb-10 text-start">
@@ -41,8 +41,6 @@ const About: React.FC = () => {
 
                 <div className="relative">
                     <Carousel
-                        autoPlay
-                        infiniteLoop
                         showThumbs={false}
                         showStatus={false}
                         interval={5000}
