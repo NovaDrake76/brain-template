@@ -17,9 +17,15 @@ const Navbar = () => {
     }, []);
 
     return (
-        <div className={`fixed top-0 left-0 right-0 z-50 py-2 px-4 border-b  border-[#D9D9D9] transition-all duration-300 ${scrollPosition > 50 ? 'bg-white' : 'bg-transparent'}`}>
+        <div className={`fixed top-0 left-0 right-0 z-50 py-2 px-4 transition-all duration-300 ${scrollPosition > 50 ? 'bg-white border-b  border-[#D9D9D9] ' : 'bg-transparent '}`}>
             <div className="max-w-7xl mx-auto flex justify-between items-center">
-                <div className={`font-bold text-xl ${scrollPosition > 50 ? 'text-black' : 'text-white'}`}>Logo</div>
+                {
+                    scrollPosition > 50 ? (
+                        <img src="/blacklogo.png" alt="logo" className="h-8" />
+                    ) : (
+                        <img src="/whitelogo.png" alt="logo" className="h-8" />
+                    )
+                }
                 {/* <div className="space-x-4">
                     <a href="#!" className="text-gray-900 hover:text-gray-600">Home</a>
                     <a href="#!" className="text-gray-900 hover:text-gray-600">About</a>
