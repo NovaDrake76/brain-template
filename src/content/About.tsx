@@ -34,7 +34,7 @@ const About: React.FC = () => {
                     <h2 className="text-2xl font-normal leading-10 font-sans tracking-tighter" id="about">
                         Our Mission
                     </h2>
-                    <h3 className=" text-2xl lg:text-4xl font-normal leading-11 font-sans tracking-tighter mb-10 text-start">
+                    <h3 className=" text-2xl lg:text-4xl font-normal leading-11 font-sans tracking-tighter mb-10 text-justify">
                         To revolutionise the treatment of neurological and psychiatric disorders through cutting-edge research and innovative brain reprogramming techniques, fostering hope and transforming lives.                    </h3>
                 </div>
 
