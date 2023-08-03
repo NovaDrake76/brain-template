@@ -11,7 +11,7 @@ const BottomContent: React.FC = () => {
                     <p className="text-lg mb-4">
                         We are actively looking for collaborators to work with our clinical division. For more information, please contact
                     </p>
-                    <a href="mailto:reception@neurastem.clinic" target="_blank" rel="noreferrer" className="text-md text-black underline" onClick={(e) => { e.preventDefault(); window.open(e.target.href, '_blank'); }} >
+                    <a href="mailto:reception@neurastem.clinic" target="_blank" rel="noreferrer" className="text-md text-black underline">
                         reception@neurastem.clinic
                     </a>
                 </div>
