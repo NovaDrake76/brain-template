@@ -38,7 +38,7 @@ const AboutVideo: React.FC = () => {
                     {/* <h2 className="text-2xl font-normal leading-10 font-sans tracking-tighter ">
                         Our Mission
                     </h2> */}
-                    <h3 className="text-2xl font-normal leading-11 font-sans tracking-tighter mb-10 text-justify">
+                    <h3 className="text-2xl font-normal leading-11 font-sans tracking-tighter mb-10 text-start">
 
                         We use artificial intelligence and the latest advancements in genetic reprogramming to build a better future.
                         <br /><br />
