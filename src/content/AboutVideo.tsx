@@ -38,9 +38,13 @@ const AboutVideo: React.FC = () => {
                     {/* <h2 className="text-2xl font-normal leading-10 font-sans tracking-tighter ">
                         Our Mission
                     </h2> */}
-                    <h3 className="text-4xl font-normal leading-11 font-sans tracking-tighter mb-10 text-start">
+                    <h3 className="text-2xl font-normal leading-11 font-sans tracking-tighter mb-10 text-justify">
+
                         We use artificial intelligence and the latest advancements in genetic reprogramming to build a better future.
-                    </h3>
+                        <br /><br />
+                        Our pioneering work in stem cell therapy and reprogramming factors positions us at the forefront of scientific innovation, enabling us to harness the regenerative potential of brain cells.
+                        <br /><br />
+                        With the launch of the Neurastem Clinic, we are proud to provide unparalleled private psychiatric and neurological care, fueled by our cutting-edge research. Together, we are committed to reprogramming minds, empowering lives, and transforming the future of brain-related healthcare.                    </h3>
                 </div>
                 <div className="max-w-[1024px] max-h-[640px]  rounded-lg">
                     <video
