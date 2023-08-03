@@ -3,7 +3,7 @@ import Hero from './content/Hero'
 import About from './content/About'
 // import Images1 from './content/Images1'
 import AboutVideo from './content/AboutVideo'
-import HorizontalContent from './content/HorizontalContent'
+// import HorizontalContent from './content/HorizontalContent'
 import BottomContent from './content/BottomContent'
 import Navbar from './components/Navbar'
 
@@ -16,7 +16,7 @@ function App() {
       <About />
       {/* <Images1 /> */}
       <AboutVideo />
-      <HorizontalContent />
+      {/* <HorizontalContent /> */}
       <BottomContent />
 
     </div>

@@ -1,7 +1,7 @@
 import { useEffect, useRef, useState } from 'react';
 
 const AboutVideo: React.FC = () => {
-    const [isInView, setIsInView] = useState(false);
+    const [_isInView, setIsInView] = useState(false);
     const videoRef = useRef<HTMLVideoElement>(null);
 
     useEffect(() => {
@@ -32,7 +32,7 @@ const AboutVideo: React.FC = () => {
     }, []);
 
     return (
-        <div className="bg-white p-2 md:p-[260px] md:pt-0 text-black w-screen md:w-full">
+        <div className="bg-white p-8 md:p-[260px] md:pt-0 md:pb-0 text-black w-screen md:w-full">
             <div className="flex flex-col items-center gap-4">
                 <div className="flex flex-col text-start w-full max-w-[1024px]">
                     {/* <h2 className="text-2xl font-normal leading-10 font-sans tracking-tighter ">
@@ -46,7 +46,7 @@ const AboutVideo: React.FC = () => {
                         <br /><br />
                         With the launch of the Neurastem Clinic, we are proud to provide unparalleled private psychiatric and neurological care, fueled by our cutting-edge research. Together, we are committed to reprogramming minds, empowering lives, and transforming the future of brain-related healthcare.                    </h3>
                 </div>
-                <div className="max-w-[1024px] max-h-[640px]  rounded-lg">
+                {/* <div className="max-w-[1024px] max-h-[640px]  rounded-lg">
                     <video
                         src="/v2.webm"
                         autoPlay={isInView}
@@ -57,7 +57,7 @@ const AboutVideo: React.FC = () => {
                         controls={false}
                         ref={videoRef}
                     ></video>
-                </div>
+                </div> */}
             </div>
         </div >
 

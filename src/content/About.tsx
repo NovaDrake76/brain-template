@@ -28,7 +28,7 @@ const About: React.FC = () => {
     };
 
     return (
-        <div className="bg-white p-4 md:p-[260px] md:pb-10 text-black w-screen md:w-full flex flex-col items-center" >
+        <div className="bg-white p-8 md:p-[260px] md:pb-10 text-black w-screen md:w-full flex flex-col items-center" >
             <div className="flex flex-col items-center gap-4" >
                 <div className="flex flex-col text-start w-full max-w-[1024px]" >
                     <h2 className="text-2xl font-normal leading-10 font-sans tracking-tighter" id="about">
