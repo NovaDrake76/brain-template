@@ -20,6 +20,24 @@ const Hero: React.FC = () => {
         };
     }, []);
 
+    useEffect(() => {
+        const handleCanPlay = () => {
+            const video = videoRef.current;
+            if (video) {
+                video.play();
+            }
+        };
+        const video = videoRef.current;
+        if (video) {
+            video.addEventListener('canplaythrough', handleCanPlay);
+        }
+        return () => {
+            if (video) {
+                video.removeEventListener('canplaythrough', handleCanPlay);
+            }
+        };
+    }, []);
+
     const smoothScrollTo = (element: any, duration: any) => {
         var start = window.pageYOffset,
             target = element.offsetTop,
